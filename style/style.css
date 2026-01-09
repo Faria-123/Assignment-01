@@ -10,7 +10,7 @@
 }
 header{
   max-width: 1600px;
-   background-color: aqua;
+   background-color: #FFFFFF;
 }
 .nav-section{
   display: flex;
@@ -117,7 +117,7 @@ header{
 }
 .notes-section{
   max-width: 1600px;
-  background-color: rgb(253, 183, 91);
+  background-color: #FFFFFF;
 }
 .notes-section .notes-container{
   max-width: 1360px;
@@ -180,7 +180,7 @@ header{
 }
 #brain-section{
    max-width: 1600px;
-   background-color: pink;
+   background-color: #FFFFFF;
 }
 .brain-container{
   padding: 120px;
@@ -218,4 +218,27 @@ header{
   display: flex;
   align-items: center;
   gap:6px ;
+}
+#ready-section{
+  max-width: 1600px;
+  background-color: white;
+}
+.ready{
+  margin: 120px;
+  background-color: #F7F6F2;
+  text-align: center;
+  border-radius: 12px;
+  padding: 80px 40px;
+}
+.ready h1{
+  font-size: 40px;
+  font-weight: 900;
+  color: #001931;
+}
+.ready p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+  margin-top: 16px;
+  margin-bottom: 24px;
 }
